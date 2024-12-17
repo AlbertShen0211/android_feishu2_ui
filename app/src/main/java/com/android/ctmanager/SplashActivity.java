@@ -30,4 +30,9 @@ public class SplashActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
