@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
     /***
-     *
+     *sss
      * @param savedInstanceState
      */
     @Override
