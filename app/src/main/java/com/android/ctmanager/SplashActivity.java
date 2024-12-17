@@ -17,7 +17,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         Intent intent = new Intent(SplashActivity.this, MainActivity.class);
 
-//        Log.e("SplashActivity","token:"+token);
+        Log.e("SplashActivity","token:");
 //        //  if (LoginUserManager.getInstance().currentUser() != null) {
 //        if (!TextUtils.isEmpty(SPUtils.getInstance().getString(AppConst.APP_TOKEN))){
 //            intent = new Intent(SplashActivity.this, MainActivity.class);
