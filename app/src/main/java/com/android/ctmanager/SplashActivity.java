@@ -16,13 +16,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-
-        Log.e("SplashActivity","token:");
-
-//        //  if (LoginUserManager.getInstance().currentUser() != null) {
-//        if (!TextUtils.isEmpty(SPUtils.getInstance().getString(AppConst.APP_TOKEN))){
-//            intent = new Intent(SplashActivity.this, MainActivity.class);
-//        }
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
